@@ -58,3 +58,9 @@
   sha256: 762f7f68689c09ef4fa7203d362ecaffebd238eaaea0113a0f371646a891a6f9
   author: spworker2026
   introduction: 通过 SP 系统公共能力列出并重启网络接口。
+- name: SP-谷歌网盘下载
+  package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.0/sp-gdrive-downloader-v1.pkg
+  version: '1'
+  sha256: 643edbbb57d16dd46f4c04717e3759cb1bd7664aab5160de191088d7ea6758d1
+  author: ggwpcj
+  introduction: 谷歌网盘(Google Drive)文件下载插件，支持目录浏览、多选、队列下载、断点续传。
