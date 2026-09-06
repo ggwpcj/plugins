@@ -1,67 +1,78 @@
 - name: sp-随浏网页
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.4.pkg?sha=c9776f0d11f975d78f5fe31ece6f8e6c0e2abb89a66d55612744a97514466532
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.4.pkg?sha=f265a4640678d8964e4ee1c0ab07503f5bf8145b2853ba29f01881bdb0f5124a
   version: '1.4'
-  sha256: c9776f0d11f975d78f5fe31ece6f8e6c0e2abb89a66d55612744a97514466532
+  sha256: f265a4640678d8964e4ee1c0ab07503f5bf8145b2853ba29f01881bdb0f5124a
   author: spworker2026
   introduction: 使用 SP 受管线路随机浏览网页，支持自动停止、流量限制和任务控制。
+  minimum_sp_version: 3.0-beta-2
 - name: sp-网盘管理
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=e029b094e2f0c99b8050c2c137e9e764d8bc30ee00e583377ed1dd47b6a95ea0
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   version: '1'
-  sha256: e029b094e2f0c99b8050c2c137e9e764d8bc30ee00e583377ed1dd47b6a95ea0
+  sha256: 34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   author: spworker2026
   introduction: 管理多个网盘账户，支持文件列表、上传、下载、分享和常用文件操作。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-收发签到
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.pkg?sha=93c6e5563ad49512edc4f78f6c81937bec07c589f0b5155d70ce46423e970c64
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.pkg?sha=643ebc287d8beffe55d7822b32b93b9870b6472cda6b14edebea1b02bacef035
   version: '1'
-  sha256: 93c6e5563ad49512edc4f78f6c81937bec07c589f0b5155d70ce46423e970c64
+  sha256: 643ebc287d8beffe55d7822b32b93b9870b6472cda6b14edebea1b02bacef035
   author: spworker2026
   introduction: 管理多个收发签到账户，保留邮件、网盘、管理和历史密钥等原有功能。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-火云隧道
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=0b7189507258802da332912e8db7403efb47142d79cda872e3cd55f94936c9ab
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
   version: '1'
-  sha256: 0b7189507258802da332912e8db7403efb47142d79cda872e3cd55f94936c9ab
+  sha256: 19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
   author: spworker2026
   introduction: 管理 Cloudflare 隧道，首次使用时按当前平台可信下载并校验官方 cloudflared。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-管理Deno
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-deno-manager-v1.pkg?sha=1eb1a008b9c96f68fd480212bdf17fcd85979848c4259857633a0b419d942218
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-deno-manager-v1.pkg?sha=a8c82dd7c6c51401f5741580b58f1d21da86f23c759295f37e4db7ee69dfc6a9
   version: '1'
-  sha256: 1eb1a008b9c96f68fd480212bdf17fcd85979848c4259857633a0b419d942218
+  sha256: a8c82dd7c6c51401f5741580b58f1d21da86f23c759295f37e4db7ee69dfc6a9
   author: spworker2026
   introduction: 管理 Deno Deploy 账户、项目和域名，并通过 SP 公共网络流水线访问服务。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-命令操控
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-command-control-v1.pkg?sha=e929a3d6685cfb4a05fbf70daf46244915e44522bd4fc293ad7ebc0c063b14f9
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-command-control-v1.pkg?sha=1447c69267438f327a9672f031b0e5345bd79fc785aaced33f33b9c9a126532a
   version: '1'
-  sha256: e929a3d6685cfb4a05fbf70daf46244915e44522bd4fc293ad7ebc0c063b14f9
+  sha256: 1447c69267438f327a9672f031b0e5345bd79fc785aaced33f33b9c9a126532a
   author: spworker2026
   introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-YTB下载
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.3.pkg?sha=0847f2cfa7c4226cd49da6e69778ca97f9555e998a7d06a77a3473fa655eff31
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.3.pkg?sha=1a3f9017bc5886ffcf592b80d663ee60fa91b899c75f688333887a5fb7149bda
   version: '1.3'
-  sha256: 0847f2cfa7c4226cd49da6e69778ca97f9555e998a7d06a77a3473fa655eff31
+  sha256: 1a3f9017bc5886ffcf592b80d663ee60fa91b899c75f688333887a5fb7149bda
   author: spworker2026
   introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
+  minimum_sp_version: 3.0-beta-2
 - name: sp-在线翻译
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.1.pkg?sha=dbf52034ac59da25bb32c2ab746d77e223279aa56f1b94a12873c7eb6829bdb9
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.1.pkg?sha=792df13c7576054f4e0e5832876945d88ee3788e914cd11d66ece9cabc730875
   version: '1.1'
-  sha256: dbf52034ac59da25bb32c2ab746d77e223279aa56f1b94a12873c7eb6829bdb9
+  sha256: 792df13c7576054f4e0e5832876945d88ee3788e914cd11d66ece9cabc730875
   author: spworker2026
   introduction: 通过谷歌或必应接口翻译文本，并复用 SP 公共网络任务接口。
+  minimum_sp_version: 3.0-beta-2
 - name: sp-执行脚本
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=068ec4fac123a57f784f073afc266a311af3d4ebfb9c9b5c78fd5e55520ae8ab
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=d2106727dbac07a86ba5db5aa86ba7a3062930333ee9720fb542643d32feea62
   version: '1'
-  sha256: 068ec4fac123a57f784f073afc266a311af3d4ebfb9c9b5c78fd5e55520ae8ab
+  sha256: d2106727dbac07a86ba5db5aa86ba7a3062930333ee9720fb542643d32feea62
   author: spworker2026
   introduction: 支持执行、管理和按设置自动运行 Python 脚本。
+  minimum_sp_version: 3.0-beta-1
 - name: sp-重启网络接口
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=762f7f68689c09ef4fa7203d362ecaffebd238eaaea0113a0f371646a891a6f9
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=6116d40037c99cbecbe03e71c5bd1bd842b221f6713b30363a2554f46bf4884a
   version: '1'
-  sha256: 762f7f68689c09ef4fa7203d362ecaffebd238eaaea0113a0f371646a891a6f9
+  sha256: 6116d40037c99cbecbe03e71c5bd1bd842b221f6713b30363a2554f46bf4884a
   author: spworker2026
   introduction: 通过 SP 系统公共能力列出并重启网络接口。
+  minimum_sp_version: 3.0-beta-1
 - name: SP-谷歌网盘下载
   package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.2/sp-gdrive-downloader-v1.2.pkg
   version: '1.2'
   sha256: 06de2e435a5435294bf63f36a227b266be827a83c8e4a6ddcc85f0f17f788256
   author: ggwpcj
-  introduction: 谷歌网盘(Google Drive)文件下载插件：连接池保存常用链接，检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格模拟网页版整行单击选中、双击文件夹展开，线路默认二级代理并支持宿主核心内直连。适用 Windows/Linux。
+  introduction: 谷歌网盘(Google Drive)文件下载插件：连接池保存常用链接，检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格模拟网页版整行单击选中、双击文件夹展开，线路默认二级代理并支持宿主核心内直连。适用
+    Windows/Linux。
   source_catalog: https://raw.githubusercontent.com/ggwpcj/sp-plugin-library/main/lists.yaml
