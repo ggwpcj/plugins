@@ -69,10 +69,10 @@
   introduction: 通过 SP 系统公共能力列出并重启网络接口。
   minimum_sp_version: 3.0-beta-1
 - name: SP-谷歌网盘下载
-  package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.2/sp-gdrive-downloader-v1.2.pkg
-  version: '1.2'
-  sha256: 06de2e435a5435294bf63f36a227b266be827a83c8e4a6ddcc85f0f17f788256
+  package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.4/sp-gdrive-downloader-v1.4.pkg
+  version: '1.4'
+  sha256: df03c52d15825e61653d9bd05d1c038200c41a49b026144d7889e87da391fce7
   author: ggwpcj
-  introduction: 谷歌网盘(Google Drive)文件下载插件：连接池保存常用链接，检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格模拟网页版整行单击选中、双击文件夹展开，线路默认二级代理并支持宿主核心内直连。适用
+  introduction: 谷歌网盘(Google Drive)文件下载插件：解析性能大幅优化，文件夹不再逐个探测文件，改为分页拉取+直链构造，上千文件秒级解析；链接池支持命名保存、解析后自动入池，检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格模拟网页版整行单击选中、双击文件夹展开，线路默认二级代理并支持宿主核心内直连。适用
     Windows/Linux。
   source_catalog: https://raw.githubusercontent.com/ggwpcj/sp-plugin-library/main/lists.yaml
