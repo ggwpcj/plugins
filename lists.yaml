@@ -1,7 +1,7 @@
 - name: sp-随浏网页
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.4.pkg?sha=f265a4640678d8964e4ee1c0ab07503f5bf8145b2853ba29f01881bdb0f5124a
-  version: '1.4'
-  sha256: f265a4640678d8964e4ee1c0ab07503f5bf8145b2853ba29f01881bdb0f5124a
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.5.pkg?sha=f1c809131aebbe8c81eb4cb51670462636a010fe4edc0f786ba7872d7a206d45
+  version: '1.5'
+  sha256: f1c809131aebbe8c81eb4cb51670462636a010fe4edc0f786ba7872d7a206d45
   author: spworker2026
   introduction: 使用 SP 受管线路随机浏览网页，支持自动停止、流量限制和任务控制。
   minimum_sp_version: 3.0-beta-2
@@ -41,9 +41,9 @@
   introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
   minimum_sp_version: 3.0-beta-1
 - name: sp-YTB下载
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.6.pkg?sha=c4e5bf5288db6a826143373bb1058766e27fea6c8dc28d70092377b261a4bf99
-  version: '1.6'
-  sha256: c4e5bf5288db6a826143373bb1058766e27fea6c8dc28d70092377b261a4bf99
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.7.pkg?sha=fe426dd945b3a23106cab25b4d8d9efe363da59d3ddc873d65eaa33246c1ff84
+  version: '1.7'
+  sha256: fe426dd945b3a23106cab25b4d8d9efe363da59d3ddc873d65eaa33246c1ff84
   author: spworker2026
   introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
   minimum_sp_version: 3.0-beta-2
