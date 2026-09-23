@@ -1,7 +1,7 @@
 - name: sp-随浏网页
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.6.pkg?sha=ade8b7b8eb2c29cc598f3afff7dfb834b6d8aea9d411980a9c329814709530a0
-  version: '1.6'
-  sha256: ade8b7b8eb2c29cc598f3afff7dfb834b6d8aea9d411980a9c329814709530a0
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.7.pkg?sha=22ebd0012b2f238252b0ecf18402c7be044375c014ddd7f1a431ae02c5c345c8
+  version: '1.7'
+  sha256: 22ebd0012b2f238252b0ecf18402c7be044375c014ddd7f1a431ae02c5c345c8
   author: spworker2026
   introduction: 使用 SP 受管线路随机浏览网页，支持自动停止、流量限制和任务控制。
   minimum_sp_version: 3.0-beta-3
