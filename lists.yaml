@@ -48,8 +48,8 @@
   author: spworker2026
   introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
   minimum_sp_version: 3.0-beta-2
-  candidate:
-    package: https://raw.githubusercontent.com/spworker2026/plugins/main/candidate-packages/sp-ytb-download-v1.9.pkg?sha=4422adbf69d3053d2cd8ee7c6d6502fc193348c73824ba619b6119ac70a5dbc0
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.9.pkg?sha=4422adbf69d3053d2cd8ee7c6d6502fc193348c73824ba619b6119ac70a5dbc0
     version: '1.9'
     api_version: 2
     minimum_sp_version: 3.0-beta-4
@@ -61,8 +61,8 @@
   author: spworker2026
   introduction: 通过谷歌或必应接口翻译文本，并复用 SP 公共网络任务接口。
   minimum_sp_version: 3.0-beta-2
-  candidate:
-    package: https://raw.githubusercontent.com/spworker2026/plugins/main/candidate-packages/sp-online-translate-v1.3.pkg?sha=6459c4096e253af272ccc7149c967c8a1c621137d0685fb9ba6a15e26e8b3218
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.3.pkg?sha=6459c4096e253af272ccc7149c967c8a1c621137d0685fb9ba6a15e26e8b3218
     version: '1.3'
     api_version: 5
     minimum_sp_version: 3.0-beta-5
